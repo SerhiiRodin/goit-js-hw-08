@@ -27,7 +27,7 @@ function createListItemsMarkup(items) {
 
 galleryEl.innerHTML = ListItemsMarkup;
 
-const lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new simpleLightbox('.gallery a', {
   nav: true,
   captionsData: 'alt',
   captionPosition: 'bottom',
